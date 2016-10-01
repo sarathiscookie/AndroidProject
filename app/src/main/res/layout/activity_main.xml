@@ -12,14 +12,15 @@
 
     <TextView
         android:textAppearance="?android:textAppearanceLarge"
-        android:background="#ea80fc"
+        android:background="#ffffff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:autoLink="web"
+        android:text="https://developer.android.com" />
 
     <ImageView
         android:src="@drawable/cake"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleType="center" />
+        android:scaleType="centerCrop" />
 </RelativeLayout>
